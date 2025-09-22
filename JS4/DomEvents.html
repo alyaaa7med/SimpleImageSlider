@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title> Events </title>
+        <script src="events.js"> </script>
+        <style>
+            #next {
+                padding : 20px;
+                margin  : 20px;
+                border-radius: 20%;
+                display: inline-block ;
+                width: 110px;
+                height: 70px;
+                text-align: center;
+                font:  20px cursive;
+                color :rgb(178, 161, 32);
+                background-color: rgb(128, 29, 68);
+            }
+
+            #previous {
+                padding : 10px;
+                margin  : 20px;
+                border-radius: 20%;
+                display: inline-block ;
+                width: 110px;
+                height: 70px;
+                text-align: center;
+                font:  20px cursive;
+                color :rgb(178, 159, 32);
+                background-color: rgb(85, 19, 19);
+            }
+
+            #slideshow {
+                padding : 20px;
+                margin  : 20px;
+                border-radius: 20%;
+                display: inline-block ;
+                width: 130px;
+                height: 70px;
+                text-align: center;
+                font:  20px cursive;
+                color :rgb(178, 159, 32);
+                background-color: rgb(101, 92, 101);
+            }
+            
+            #mystop {
+
+                padding : 20px;
+                margin  : 20px;
+                border-radius: 20%;
+                display: inline-block ;
+                width: 110px;
+                height: 70px;
+                text-align: center;
+                font:  20px cursive;
+                color :rgb(178, 159, 32);
+                background-color: rgb(60, 41, 135);
+    
+
+            }
+            .images {
+                margin: 20px;
+                border: 2px solid darkslategray;
+                border-radius: 20px;
+                width : 350px;
+                height: 350px;
+            }
+
+            img {
+                width :100%;
+                height :100%;
+                border-radius: 20px;
+
+            }
+            
+            h3 {
+                margin: 20px;
+                color: brown;
+                font-family: cursive;
+
+            }
+
+            .slides {
+                
+                width :100%;
+                height :70%;
+                border-radius: 20px;
+
+            }
+            #dropdown {
+                width : 150px;
+                height: 50px;
+                text-align: center;
+                border-radius: 20px;
+                background-color: rgb(165, 140, 42);
+                font:  30px cursive;
+                color : brown ;
+                margin:20px
+
+            }
+
+            #studentdata {
+                padding :20px;
+                margin :20px;
+                font :  20px cursive ;
+                background-color: lightgrey;    }
+
+            #oddstudentdata {
+                padding :20px;
+                margin :20px;
+                font :  40px "Lucida Handwriting" ;
+                color : goldenrod;
+                background-color: rgb(137, 75, 75);   
+                text-align: center ;
+             }
+            
+            #evenstudentdata {
+                padding :20px;
+                margin :20px;
+                font :  20px "Brush Script MT" ;
+                background-color: #066076;    }
+
+
+
+        </style>
+    </head>
+
+    <body>
+        <h3 >Task 3</h3>
+        <input type = "button"  id="next"  value="next"/>
+        <input type = "button"  id="previous" value="previous"/>
+        <input type = "button"  id="slideshow" value="slideshow"/>
+        <input type = "button"  id="mystop" value = "mystop"/> <!--  stop is a reserved keyword -->
+
+        <div class="images"> 
+             <img src = "images/1.jpg"/>    <!-- max = 6--> 
+
+        </div>
+
+        <h3 >Task 4</h3>
+
+        <select id="dropdown"> <!-- it is a drop down -->
+         <option value="1">Ali</option>
+         <option value="2">Hamza</option>
+         <option value="3">Anas</option>
+        
+        </select>
+
+        <div id="studentdata">
+
+        </div>
+
+        <h3 >Task 5</h3>
+
+        <div id="oddstudentdata">
+
+        </div>
+
+        <div id="evenstudentdata">
+
+        </div>
+
+
+
+     
+    </body>
+</html>
