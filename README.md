@@ -6,8 +6,9 @@ A JavaScript implementation of a dual-mode image slider. This project demonstrat
 
 ## 📷 Visual Preview
 
+![Slider Preview](JS4/Screenshot%20(221).png)
+![Slider Preview](JS4/Screenshot%20(222).png)
 
----
 
 ## ✨ Features
 
